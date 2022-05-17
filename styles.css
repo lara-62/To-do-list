@@ -1,0 +1,123 @@
+body
+{
+    text-align: center;
+    background-color: #134b5f;
+    color: #3BACB6;
+  
+}
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+header h1
+{
+    margin: 2rem;
+}
+.Task h3
+{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+#form-content
+{
+    appearance:none;
+    border: none;
+    outline: none;
+    text-align: left;
+    font-size: 1rem;
+    width: 70%;
+    height: 30px;
+    margin: 1.5%;
+    background-color: transparent;
+    border: transparent;
+    color: #fff;
+
+}
+#submit-button
+{
+    
+    border: transparent;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #3BACB6;
+    font-size: 1rem;
+}
+#submit-button:hover
+{
+    color:#82DBD8 ;
+}
+.form
+{
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: #0a2a34;
+    height: 40px;
+    width: 20%;
+    margin: 0px auto;
+    display: flex;
+    
+}
+.Task 
+{
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  padding: 5%;
+}
+.Task-container
+{
+    display: flex;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: #0a2a34;
+    height: 40px;
+    width: 70%;
+    margin: 2rem 0;
+    text-align: left;
+    padding-left: .5rem;
+    
+}
+.content
+{
+   flex:2;
+    
+}
+.action
+{
+  
+    height: 100%;
+}
+#content
+{
+    appearance:none;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    height: 100%;
+    width: 70%;
+    color: white;
+    font-size: 1rem;
+}
+#edit-button,#delete-button
+{
+    height: 100%;
+    font-size: 1rem;
+    margin: 0 .3rem;
+    appearance: none;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #3BACB6;
+}
+#edit-button:hover,#delete-button:hover
+{
+    color: #82DBD8;
+}
+.icon
+{
+    margin-right: 1rem;
+}
